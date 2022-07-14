@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+main{
+  background-color: #F1F3F6;
+  margin: 0;
+}
+header {
+ 
+  background-color: #2874F0;
+  font-family: 'Ibarra Real Nova', serif;
+  margin: 0;
+  
+  
+}
+nav{
+  display: flex;
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width:88px;
+  padding:25px;
+}
+footer {
+  height: 12vh;
+  background-color: #2874F0;
+  color: white;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+nav ul li{
+    list-style: none;
+    padding:0 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+    font-weight: bold;
+    /* color: rgb(207, 121, 121); */
+    
+
+}
+
+nav ul {
+    display:flex ;
+    height: 73.6167px;
+    align-items: center;
+}
+.search{
+  display:flex ;
+  align-items: center;
+}
+.search input{
+  border-radius: 3px;
+  margin-left:100px;
+  margin-right: 5px;
+  width: 30vw;
+  }
+.container{
+  min-height: calc(100vh - 73.6167px - 12vh);
+}
+.slider{
+  display: flex;
+  margin:auto;
+  /* width:80vw; */
+  justify-content: center;
+  overflow: hidden;
+  
+
+}
+.slider img{
+  margin: 12px;
+  
+}
+.card{
+  max-width: 91vw;
+  margin: 35px auto;
+  /* display: flex ; */
+  background-color: white;
+ 
+  
+}
+h2{
+  font-family: "Edu NSW ACT Foundation", cursive;
+  margin:26px 15px;
+
+}
+.card p{
+  font-family: 'Montserrat', sans-serif;
+  width:160px
+}
+.card-item{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+  
+  
+}
+.cards{
+  display: flex;
+  flex-direction:row;
+  overflow: hidden;
+  /* justify-content: center; */
+}
